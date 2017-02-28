@@ -1,0 +1,8 @@
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\bin\Web.dll.config
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\bin\Web.dll
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\bin\Web.pdb
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\bin\Microsoft.ApplicationInsights.dll
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\obj\Debug\Web.dll
+D:\Projelerim\Visual Studio\OfisDers\FilmArsiv\Web\obj\Debug\Web.pdb

@@ -1,0 +1,9 @@
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\bin\Debug\Sinav-01.exe.config
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\bin\Debug\Sinav-01.exe
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\bin\Debug\Sinav-01.pdb
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\obj\Debug\Sinav-01.csprojResolveAssemblyReference.cache
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\obj\Debug\Sinav_01.Form1.resources
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\obj\Debug\Sinav_01.Properties.Resources.resources
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\obj\Debug\Sinav-01.csproj.GenerateResource.Cache
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\obj\Debug\Sinav-01.exe
+D:\Projelerim\Visual Studio\OfisDers\Sinav-01\Sinav-01\obj\Debug\Sinav-01.pdb
