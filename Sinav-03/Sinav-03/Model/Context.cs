@@ -29,6 +29,8 @@ namespace Sinav_03
             set
             {
                 _Yetkis = value;
+
+                //_Yetkis = new List<Yetki>();
             }
         }
     }
