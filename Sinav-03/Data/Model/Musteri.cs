@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sinav_03
+namespace Data
 {
     public class Musteri
     {
-        private static int _ID = 0;
+        private static int _musteriID = 0;
 
         public Musteri()
         {
-            ID = _ID++;
+            musteriID = _musteriID++;
         }
 
-        public int ID { get; set; }
-        public string adSoyad { get; set; }
+        public int musteriID { get; set; }
         public string TCKN { get; set; }
         public decimal bakiye { get; set; }
 

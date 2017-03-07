@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sinav_03
+namespace Data
 {
     public class YetkiKullanici
     {

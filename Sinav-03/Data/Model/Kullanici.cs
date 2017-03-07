@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Sinav_03
+namespace Data
 {
     public class Kullanici
     {
-        private static int _ID = 0;
+        private static int _kullaniciID = 0;
 
         public Kullanici()
         {
-            ID = _ID++;
+            kullaniciID = _kullaniciID++;
+            Yetkis = new List<Yetki>();
         }
 
-        public int ID { get; set; }
+        public int kullaniciID { get; set; }
         public string adSoyad { get; set; }
         public string kullaniciAdi { get; set; }
         public string ePosta { get; set; }

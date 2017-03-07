@@ -1,19 +1,21 @@
-﻿using System;
+﻿using Data;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using Data;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Sinav_03.web
+namespace Desktop
 {
-    public partial class test : System.Web.UI.Page
+    public partial class Form1 : Form
     {
-        protected void Page_Load(object sender, EventArgs e)
+        public Form1()
         {
-            Context ctx = new Context();
-
+            
             #region Ekle Kısımları
             Ekle.Yetki("Yönetici");
             Ekle.Yetki("Admin");
@@ -34,16 +36,15 @@ namespace Sinav_03.web
             Ekle.Musteri("3333333333", 1000, cuma);
             #endregion
 
-            rptKullanicilar.DataSource = ctx.Kullanicis.Select(x => new
-            {
-                x.kullaniciID,
-                x.kullaniciAdi,
-                x.adSoyad,
-                x.ePosta,
-                x.sifre,
-                yetkiAdi = x.Yetkis.FirstOrDefault().ad
-            });
-            rptKullanicilar.DataBind();
+
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Context ctx = new Context();
+
+            dgvKullanici.DataSource = ctx.Kullanicis;
         }
     }
 }
